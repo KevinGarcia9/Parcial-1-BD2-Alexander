@@ -20,7 +20,7 @@ namespace Repaso
         private void vehiculosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
-            FrmVehiculos nuevoFormulario = new FrmVehiculos();
+            FrmEmpleado nuevoFormulario = new FrmEmpleado();
             nuevoFormulario.Show();
         }
     }

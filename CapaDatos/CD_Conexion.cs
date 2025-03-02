@@ -11,7 +11,7 @@ namespace CapaDatos
     public class CD_Conexion
     {
         private SqlConnection db_conexion = new SqlConnection("Data Source=DESKTOP-TGA3FFT\\SQLEXPRESS;" +
-            "Initial Catalog=db_AgenciaCarros;" +
+            "Initial Catalog=db_planilla;" +
             "Integrated Security=True;Encrypt=False");
 
         public SqlConnection MtdAbrirConexion()
